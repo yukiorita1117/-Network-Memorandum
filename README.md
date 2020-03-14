@@ -53,10 +53,14 @@
   7 段階の実行レイヤーがある。
   それぞれの層でルールがあって、7 層 → 1 層で処理が進み、通信手順を整える。
 
-| 第７層 | アプリケーション層 | Application Layer |
+|        |                      |                    |
+| ------ | -------------------- | ------------------ |
+| 第７層 | アプリケーション層   | Application Layer  |
 | 第６層 | プレゼンテーション層 | Presentation Layer |
-| 第５層 | セション層 | Session Layer |
-| 第４層 | トランスポート層 | Transport Layer |
-| 第３層 | ネットワーク層 | Network Layer |
-| 第２層 | データリンク層 | Data-Link Layer |
-| 第１層 | 物理層 | Physical | Layer |
+| 第５層 | セション層           | Session Layer      |
+| 第４層 | トランスポート層     | Transport Layer    |
+| 第３層 | ネットワーク層       | Network Layer      |
+| 第２層 | データリンク層       | Data-Link Layer    |
+| 第１層 | 物理層               | Physical Layer     |
+
+それぞれの層で機能も異なり、独立しているので、例えば第 6 層で変更があったとしても、その変更は第 7 層には影響しない。
